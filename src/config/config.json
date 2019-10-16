@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "api_node_demo",
-    "host": "127.0.0.1",
+    "username": "rIXmH7kHJZ",
+    "password": "jkdkcB9yG3",
+    "database": "rIXmH7kHJZ",
+    "host": "remotemysql.com",
     "dialect": "mysql"
   },
   "test": {
