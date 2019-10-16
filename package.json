@@ -1,0 +1,42 @@
+{
+  "name": "scoutbase-backend-code-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon src/app.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khanani92/scoutbase-backend-code-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khanani92/scoutbase-backend-code-challenge/issues"
+  },
+  "homepage": "https://github.com/khanani92/scoutbase-backend-code-challenge#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "apollo-server-express": "^2.9.6",
+    "body-parser": "^1.19.0",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.5",
+    "lodash": "^4.17.15",
+    "nodemon": "^1.19.3",
+    "mysql2": "^1.5.3",
+    "bcrypt": "^3.0.6",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sequelize": "^5.19.6",
+    "sqlite": "^3.0.3"
+  }
+}
