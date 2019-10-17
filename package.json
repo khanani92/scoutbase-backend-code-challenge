@@ -2,9 +2,9 @@
   "name": "scoutbase-backend-code-challenge",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "app.js",
   "scripts": {
-    "start": "NODE_ENV=development node src/app.js --exec babel-node",
+    "start": "NODE_ENV=development nodemon src/app.js --exec babel-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -37,6 +37,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "sequelize": "^5.19.6",
-    "sqlite": "^3.0.3"
+    "sqlite": "^3.0.3",
+        "nodemon": "^1.19.1"
   }
 }
