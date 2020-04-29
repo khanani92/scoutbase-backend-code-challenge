@@ -11,7 +11,7 @@ const app = express();
 
 
 function setPort(port = 5000) {
- app.set('port', parseInt(port, 10));
+ app.set('port', parseInt(port, 10)); 
 }
 
 function listen() {
